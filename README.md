@@ -33,7 +33,7 @@ cp .env.example .env
 
 # Initialize database
 python scripts/init_db.py
-
+python scripts/setup.py
 
 Running the Application
 Bash
@@ -109,6 +109,8 @@ Bash
 pytest
 Database Migrations
 Bash
+# run
+python scripts/setup.py
 
 # Create migration
 alembic revision --autogenerate -m "description"
