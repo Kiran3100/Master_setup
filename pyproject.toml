@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "hr-management-system"
+version = "1.0.0"
+description = "HR Management System API"
+authors = ["Your Team"]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
